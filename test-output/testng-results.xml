@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T03:24:54 EDT" name="Default suite" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6412">
+    <groups>
+    </groups>
+    <test started-at="2022-07-24T03:24:54 EDT" name="Default test" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6412">
+      <class name="com.progressive.test.auto.Autoclass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:24:54 EDT" name="setUp" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAutoQuote()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:25:00 EDT" name="getAutoQuote" finished-at="2022-07-24T03:25:00 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAutoQuote -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:25:00 EDT" name="terminate" finished-at="2022-07-24T03:25:00 EDT" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.progressive.test.auto.Autoclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
