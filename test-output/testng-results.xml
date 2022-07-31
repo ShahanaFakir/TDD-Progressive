@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: quote-title] :has value --->AUTO<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current URL is: https://www.progressive.com/#l<br>]]>
+    </line>
+    <line>
+      <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
+    </line>
+    <line>
+      <![CDATA[5920 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-07-24T03:24:54 EDT" name="Default suite" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6412">
+  <suite started-at="2022-07-31T00:39:25 EDT" name="RegressionSuite" finished-at="2022-07-31T00:39:40 EDT" duration-ms="15595">
     <groups>
     </groups>
-    <test started-at="2022-07-24T03:24:54 EDT" name="Default test" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6412">
+    <test started-at="2022-07-31T00:39:25 EDT" name="Test" finished-at="2022-07-31T00:39:40 EDT" duration-ms="15595">
       <class name="com.progressive.test.auto.Autoclass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:24:54 EDT" name="setUp" finished-at="2022-07-24T03:25:00 EDT" duration-ms="6163" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-31T00:39:25 EDT" name="setUp" finished-at="2022-07-31T00:39:31 EDT" duration-ms="5902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getAutoQuote()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:25:00 EDT" name="getAutoQuote" finished-at="2022-07-24T03:25:00 EDT" duration-ms="5" status="PASS">
+        <test-method signature="getAutoQuote()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-31T00:39:31 EDT" name="getAutoQuote" finished-at="2022-07-31T00:39:40 EDT" duration-ms="9277" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: quote-title] :has value --->AUTO<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current URL is: https://www.progressive.com/#l<br>]]>
+            </line>
+            <line>
+              <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
+            </line>
+            <line>
+              <![CDATA[5920 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getAutoQuote -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-24T03:25:00 EDT" name="terminate" finished-at="2022-07-24T03:25:00 EDT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.progressive.test.auto.Autoclass@1cbb87f3]" started-at="2022-07-31T00:39:40 EDT" name="terminate" finished-at="2022-07-31T00:39:40 EDT" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- com.progressive.test.auto.Autoclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
 </testng-results>

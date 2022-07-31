@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 31 00:39:25 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15595 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.progressive.test.auto.Autoclass.getAutoQuote()'><b>getAutoQuote</b><br>Test class: com.progressive.test.auto.Autoclass<br/>
+<a href="#Output-1406221524" onClick='toggleBox("Output-1406221524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406221524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406221524">
+[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br><br/>
+[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: quote-title] :has value --->AUTO<br><br/>
+Current URL is: https://www.progressive.com/#l<br><br/>
+11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='zipCode_overlay']]<br><br/>
+[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br><br/>
+[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br><br/>
+Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br><br/>
+D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br><br/>
+Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br><br/>
+01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br><br/>
+5920 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (5d7b7afbc637e14161249a093701035f)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.progressive.test.auto.Autoclass@1cbb87f3</td></tr>
+</table><p>
+</body>
+</html>
