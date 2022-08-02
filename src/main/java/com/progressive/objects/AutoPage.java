@@ -5,14 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import com.progressive.common.Commons;
+import com.progressive.common.CommonFunctions;
 
 public class AutoPage {
 	WebDriver driver;
-	Commons commons;
+	CommonFunctions commons;
 
-	public AutoPage(WebDriver driver, Commons commons) {
+	public AutoPage(WebDriver driver, CommonFunctions commons) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 		this.commons = commons;

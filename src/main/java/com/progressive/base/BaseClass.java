@@ -5,9 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import com.progressive.common.Commons;
+import org.testng.annotations.Parameters;
+
+import com.progressive.common.CommonFunctions;
+import com.progressive.common.CommonWaits;
 import com.progressive.objects.AutoPage;
 import com.progressive.objects.BirthdatePage;
 import com.progressive.objects.HomePage;
@@ -18,20 +22,26 @@ public class BaseClass {
 	public Configuration configuration = new Configuration(null);
 
 	WebDriver driver;
+	WebDriverWait wait;
+
+	protected CommonFunctions commons;
+	CommonWaits waits;
 	protected HomePage homePage;
-	protected Commons commons;
 	protected AutoPage aboutP;
 	protected BirthdatePage birthdatePage;
 
+	@Parameters("browser")
 	@BeforeMethod
-	public void setUp() {
-		driver = localDriver("chrome");
+	public void setUp(String browser1) {
+		driver = localDriver("browser1");
 		driver.manage().window().maximize();
 		driver.get(configuration.getConfiguration("url"));
 		driver.manage().timeouts()
 				.pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(configuration.getConfiguration("pageLoadWait"))));
 		driver.manage().timeouts()
 				.implicitlyWait(Duration.ofSeconds(Integer.parseInt(configuration.getConfiguration("implicitWait"))));
+		wait = new WebDriverWait(driver,
+				Duration.ofSeconds(Integer.parseInt(configuration.getConfiguration("explicitWait"))));
 		initClasses();
 	}
 
@@ -45,7 +55,9 @@ public class BaseClass {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-
+		} else {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 		}
 		return driver;
 	}
@@ -56,7 +68,8 @@ public class BaseClass {
 	}
 
 	private void initClasses() {
-		commons = new Commons();
+		waits = new CommonWaits(wait);
+		commons = new CommonFunctions(waits);
 		homePage = new HomePage(driver, commons);
 		aboutP = new AutoPage(driver, commons);
 		birthdatePage = new BirthdatePage(driver, commons);
@@ -65,7 +78,7 @@ public class BaseClass {
 
 	@AfterMethod
 	public void terminate() {
-		driver.quit();
+		// driver.quit();
 
 	}
 

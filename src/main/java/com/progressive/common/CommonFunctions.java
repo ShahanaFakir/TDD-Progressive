@@ -7,10 +7,17 @@ import org.testng.Assert;
 
 import com.progressive.reporting.Loggers;
 
-public class Commons {
+public class CommonFunctions {
+
+	CommonWaits waits;
+
+	public CommonFunctions(CommonWaits waits) {
+		this.waits = waits;
+	}
 
 	public void clickElement(WebElement element) {
 		try {
+			waits.waitUntilClickable(element);
 			element.click();
 			Loggers.getLog(element + " : This element has been clicked");
 
@@ -49,6 +56,17 @@ public class Commons {
 			element.sendKeys(value);
 			Loggers.getLog(value + " : This value has beed passed into--->" + element);
 
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Loggers.getLog(element + " : This element is not found");
+			Assert.fail();
+		}
+	}
+
+	public void clear(WebElement element) {
+		try {
+			element.clear();
+			Loggers.getLog("Value has been cleared from this element ---> " + element);
 		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
 			Loggers.getLog(element + " : This element is not found");
