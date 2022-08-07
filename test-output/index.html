@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
-              <span class="suite-name border-passed">RegressionSuite</span>
+              <span class="suite-name border-failed">RegressionSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
-                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods failed suite-RegressionSuite"> (hide)</a> <!-- hide-methods failed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods failed suite-RegressionSuite"> (show)</a> <!-- show-methods failed suite-RegressionSuite -->
                     </span>
-                    <div class="method-list-content passed suite-RegressionSuite">
+                    <div class="method-list-content failed suite-RegressionSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-RegressionSuite" title="com.progressive.test.auto.Autoclass" class="method navigator-link" hash-for-method="getAutoQuote">getAutoQuote</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-RegressionSuite -->
+                    </div> <!-- method-list-content failed suite-RegressionSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
-          <div class="suite-RegressionSuite-class-passed">
+          <div class="suite-RegressionSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.progressive.test.auto.Autoclass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,24 @@
                   <a name="getAutoQuote">
                   </a> <!-- getAutoQuote -->
                   <span class="method-name">getAutoQuote</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Toyota
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-1UCDMIU&apos;, ip: &apos;192.168.0.18&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
+	at com.progressive.common.CommonFunctions.selectDropdownByValue(CommonFunctions.java:97)
+	at com.progressive.objects.AboutVehiclePage.selectMake(AboutVehiclePage.java:44)
+	at com.progressive.objects.AboutVehiclePage.aboutVehiclePageSteps(AboutVehiclePage.java:54)
+	at com.progressive.test.auto.Autoclass.getAutoQuote(Autoclass.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-RegressionSuite-class-passed -->
+          </div> <!-- suite-RegressionSuite-class-failed -->
         </div> <!-- panel RegressionSuite -->
         <div panel-name="test-xml-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -189,12 +203,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getAutoQuote')
 data.setCell(0, 2, 'com.progressive.test.auto.Autoclass')
-data.setCell(0, 3, 28358);
+data.setCell(0, 3, 42155);
 window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-RegressionSuite">
               </div> <!-- times-div-RegressionSuite -->
             </div> <!-- times-div -->
@@ -208,31 +222,33 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">getAutoQuote</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: quote-title] :has value --->AUTO<br></span>
+                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: quote-title] :has value --->AUTO<br></span>
                 <span class="reporter-method-output">Current URL is: https://www.progressive.com/#l<br></span>
-                <span class="reporter-method-output">11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //input[@id='zipCode_overlay']]<br></span>
-                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: (//button[@data-action='AU+H'])[1]]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br></span>
-                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //input[@id='qsButton_overlay']]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br></span>
-                <span class="reporter-method-output">Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br></span>
-                <span class="reporter-method-output">D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br></span>
-                <span class="reporter-method-output">Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br></span>
-                <span class="reporter-method-output">01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br></span>
-                <span class="reporter-method-output">59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br></span>
-                <span class="reporter-method-output">3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br></span>
-                <span class="reporter-method-output">Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br></span>
-                <span class="reporter-method-output">Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br></span>
-                <span class="reporter-method-output">11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br></span>
-                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //button[text()='Okay, start my quote.']]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br></span>
-                <span class="reporter-method-output">59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br></span>
-                <span class="reporter-method-output">3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br></span>
-                <span class="reporter-method-output">Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br></span>
-                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (49da7f115c8210a00fd4f0703cfdee9d)] -> xpath: //button[text()='Okay, start my quote.']]<br></span>
+                <span class="reporter-method-output">11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //input[@id='zipCode_overlay']]<br></span>
+                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: (//button[@data-action='AU+H'])[1]]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br></span>
+                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //input[@id='qsButton_overlay']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br></span>
+                <span class="reporter-method-output">Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br></span>
+                <span class="reporter-method-output">D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br></span>
+                <span class="reporter-method-output">Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br></span>
+                <span class="reporter-method-output">01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br></span>
+                <span class="reporter-method-output">59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br></span>
+                <span class="reporter-method-output">3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br></span>
+                <span class="reporter-method-output">Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br></span>
+                <span class="reporter-method-output">Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br></span>
+                <span class="reporter-method-output">11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br></span>
+                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //button[text()='Okay, start my quote.']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br></span>
+                <span class="reporter-method-output">59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br></span>
+                <span class="reporter-method-output">3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br></span>
+                <span class="reporter-method-output">Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br></span>
+                <span class="reporter-method-output">Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //button[text()='Okay, start my quote.']]<br></span>
                 <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Okay, start my quote.']' : This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //h1[text()='Tell us about your vehicle(s)...']] :has value --->Tell us about your vehicle(s)...<br></span>
+                <span class="reporter-method-output">2012 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (cbdda85b9f2f07b5d6ed91904cd20536)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Year']]<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,12 +272,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">getAutoQuote</span>
-                <span class="method-start">6413 ms</span>
+                <span class="method-start">4441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminate</span>
-                <span class="method-start">34785 ms</span>
+                <span class="method-start">46617 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

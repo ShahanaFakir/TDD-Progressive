@@ -3,15 +3,18 @@ package com.progressive.common;
 import java.util.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.progressive.reporting.Loggers;
 
 public class CommonFunctions {
+	WebDriver driver;
 
 	CommonWaits waits;
 
 	public CommonFunctions(CommonWaits waits) {
+		this.driver = driver;
 		this.waits = waits;
 	}
 
@@ -73,5 +76,33 @@ public class CommonFunctions {
 			Assert.fail();
 		}
 	}
+	
+	public void selectDropdownByIndx(WebElement element, int value) {
+		try {
+			Select select = new Select(element);
+			select.selectByIndex(value);
+			Loggers.getLog(value + " : This value has been passed into this element ---> " + element);
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Loggers.getLog(element + " : This element is not found");
+			Assert.fail();
+		}
+		
+	}
+	
+	
+	public void selectDropdownByValue(WebElement element, String value) {
+		try {
+			Select select = new Select(element);
+			select.selectByValue(value);
+			Loggers.getLog(value + " : This value has been passed into this element ---> " + element);
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Loggers.getLog(element + " : This element is not found");
+			Assert.fail();
+		}
+		
+	}
+	
 
 }
