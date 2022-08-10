@@ -106,6 +106,6 @@ public class AboutVehiclePage {
 		clickDone();
 		
 		
-	}//updated
+	}
 	
 }
