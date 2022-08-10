@@ -95,8 +95,6 @@ public class AboutVehiclePage {
 		selectMake(value1);
 		selectModel(value2);
 		selectPrimaryUse(value3);
-		selectPrimaryUse(value3);
-		selectPrimaryUse(value3);
 		selectOwnOrLease(value4);
 		selectOwnOrLease(value4);
 		selectHowLonghaveYouHadThisVehicle(value5);

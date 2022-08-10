@@ -79,9 +79,10 @@ public class CommonFunctions {
 	public void selectDropdownByValue(WebElement element, String value) {
 		try {
 			Select select = new Select(element);
+			Thread.sleep(500);
 			select.selectByValue(value);
 			Loggers.getLog(value + " : This value has been passed into this element ---> " + element);
-		} catch (NullPointerException | NoSuchElementException e) {
+		} catch (NullPointerException | NoSuchElementException | InterruptedException e) {
 			e.printStackTrace();
 			Loggers.getLog(element + " : This element is not found");
 			Assert.fail();
