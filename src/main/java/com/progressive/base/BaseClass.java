@@ -72,7 +72,7 @@ public class BaseClass {
 
 	private void initClasses() {
 		waits = new CommonWaits(wait);
-		commons = new CommonFunctions(waits);
+		commons = new CommonFunctions(driver, waits);
 		homePage = new HomePage(driver, commons);
 		aboutP = new AutoPage(driver, commons);
 		birthdatePage = new BirthdatePage(driver, commons);

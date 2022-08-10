@@ -2,99 +2,132 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br>]]>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: quote-title] :has value --->AUTO<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: quote-title] :has value --->AUTO<br>]]>
     </line>
     <line>
       <![CDATA[Current URL is: https://www.progressive.com/#l<br>]]>
     </line>
     <line>
-      <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
+      <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//button[@data-action='AU+H'])[1]]<br>]]>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//button[@data-action='AU+H'])[1]]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='qsButton_overlay']]<br>]]>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='qsButton_overlay']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
+      <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
     </line>
     <line>
-      <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
+      <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
     </line>
     <line>
-      <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
+      <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
     </line>
     <line>
-      <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
+      <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
     </line>
     <line>
-      <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+      <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
     </line>
     <line>
-      <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
+      <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
     </line>
     <line>
-      <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
+      <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
     </line>
     <line>
-      <![CDATA[Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
+      <![CDATA[Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
     </line>
     <line>
-      <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
+      <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+      <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
     </line>
     <line>
-      <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
+      <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
     </line>
     <line>
-      <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
+      <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Okay, start my quote.']' : This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //h1[text()='Tell us about your vehicle(s)...']] :has value --->Tell us about your vehicle(s)...<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //h1[text()='Tell us about your vehicle(s)...']] :has value --->Tell us about your vehicle(s)...<br>]]>
     </line>
     <line>
-      <![CDATA[2012 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Year']]<br>]]>
+      <![CDATA[2012 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Year']]<br>]]>
     </line>
     <line>
-      <![CDATA[TOYOTA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Make']]<br>]]>
+      <![CDATA[TOYOTA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Make']]<br>]]>
     </line>
     <line>
-      <![CDATA[COROLLA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Model']]<br>]]>
+      <![CDATA[COROLLA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Model']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[3 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_OwnOrLease']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[3 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_OwnOrLease']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[N : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_AntitheftDevice']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Done']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Done']' : This element has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-08-07T19:46:50 EDT" name="RegressionSuite" finished-at="2022-08-07T19:47:25 EDT" duration-ms="34730">
+  <suite started-at="2022-08-09T20:06:57 EDT" name="RegressionSuite" finished-at="2022-08-09T20:07:49 EDT" duration-ms="51730">
     <groups>
     </groups>
-    <test started-at="2022-08-07T19:46:50 EDT" name="Test" finished-at="2022-08-07T19:47:25 EDT" duration-ms="34730">
+    <test started-at="2022-08-09T20:06:57 EDT" name="Test" finished-at="2022-08-09T20:07:49 EDT" duration-ms="51730">
       <class name="com.progressive.test.auto.Autoclass">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-07T19:46:50 EDT" name="setUp" finished-at="2022-08-07T19:46:56 EDT" duration-ms="5498" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-09T20:06:57 EDT" name="setUp" finished-at="2022-08-09T20:07:05 EDT" duration-ms="7466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,98 +138,131 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getAutoQuote()[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-07T19:46:56 EDT" name="getAutoQuote" finished-at="2022-08-07T19:47:25 EDT" duration-ms="29191" status="PASS">
+        <test-method signature="getAutoQuote()[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-09T20:07:05 EDT" name="getAutoQuote" finished-at="2022-08-09T20:07:49 EDT" duration-ms="44212" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br>]]>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//span[text()='Auto'])[1] | //p[@class='txt' and normalize-space(text())='Auto']] : This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: quote-title] :has value --->AUTO<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: quote-title] :has value --->AUTO<br>]]>
             </line>
             <line>
               <![CDATA[Current URL is: https://www.progressive.com/#l<br>]]>
             </line>
             <line>
-              <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
+              <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='zipCode_overlay']]<br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//button[@data-action='AU+H'])[1]]<br>]]>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//button[@data-action='AU+H'])[1]]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: (//button[@data-action='AU+H'])[1]] : This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='qsButton_overlay']]<br>]]>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='qsButton_overlay']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //input[@id='qsButton_overlay']] : This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
+              <![CDATA[Alex : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_FirstName]<br>]]>
             </line>
             <line>
-              <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
+              <![CDATA[D : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MiddleInitial]<br>]]>
             </line>
             <line>
-              <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
+              <![CDATA[Rodriguez : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_LastName]<br>]]>
             </line>
             <line>
-              <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
+              <![CDATA[01/05/1984 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_DateOfBirth]<br>]]>
             </line>
             <line>
-              <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+              <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
             </line>
             <line>
-              <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
+              <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
             </line>
             <line>
-              <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
+              <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
             </line>
             <line>
-              <![CDATA[Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
+              <![CDATA[Value has been cleared from this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
             </line>
             <line>
-              <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
+              <![CDATA[11377 : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ZipCode]<br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']] : This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
+              <![CDATA[59-16 Woodside Avenue : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_MailingAddress]<br>]]>
             </line>
             <line>
-              <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
+              <![CDATA[3B : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_ApartmentUnit]<br>]]>
             </line>
             <line>
-              <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
+              <![CDATA[Queens : This value has beed passed into--->[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> id: NameAndAddressEdit_embedded_questions_list_City]<br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Okay, start my quote.']]<br>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Okay, start my quote.']' : This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //h1[text()='Tell us about your vehicle(s)...']] :has value --->Tell us about your vehicle(s)...<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //h1[text()='Tell us about your vehicle(s)...']] :has value --->Tell us about your vehicle(s)...<br>]]>
             </line>
             <line>
-              <![CDATA[2012 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Year']]<br>]]>
+              <![CDATA[2012 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Year']]<br>]]>
             </line>
             <line>
-              <![CDATA[TOYOTA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Make']]<br>]]>
+              <![CDATA[TOYOTA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Make']]<br>]]>
             </line>
             <line>
-              <![CDATA[COROLLA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (3664b03cdcbbb6df5ed5097e5d4566ee)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Model']]<br>]]>
+              <![CDATA[COROLLA : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_Model']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[4TNC : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_VehicleUse']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[3 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_OwnOrLease']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[3 : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_OwnOrLease']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[C : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[N : This value has been passed into this element ---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //select[@id='VehiclesNew_embedded_questions_list_AntitheftDevice']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for the element to be clickable---> [[ChromeDriver: chrome on WINDOWS (bb72b1881f1fe56c7522d40758251e43)] -> xpath: //button[text()='Done']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Done']' : This element has been clicked<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- getAutoQuote -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-07T19:47:25 EDT" name="terminate" finished-at="2022-08-07T19:47:25 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.progressive.test.auto.Autoclass@10163d6]" started-at="2022-08-09T20:07:49 EDT" name="terminate" finished-at="2022-08-09T20:07:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
