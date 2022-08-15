@@ -13,6 +13,7 @@ import org.testng.annotations.Parameters;
 import com.progressive.common.CommonFunctions;
 import com.progressive.common.CommonWaits;
 import com.progressive.objects.AboutVehiclePage;
+import com.progressive.objects.AutoAndHomePage;
 import com.progressive.objects.AutoPage;
 import com.progressive.objects.BirthdatePage;
 import com.progressive.objects.HomePage;
@@ -31,6 +32,7 @@ public class BaseClass {
 	protected AutoPage aboutP;
 	protected BirthdatePage birthdatePage;
 	protected AboutVehiclePage aboutVehiclePage;
+	protected AutoAndHomePage aboutAutoAndHomePage;
 	
 
 	@Parameters("browser")
@@ -77,12 +79,13 @@ public class BaseClass {
 		aboutP = new AutoPage(driver, commons);
 		birthdatePage = new BirthdatePage(driver, commons);
 		aboutVehiclePage = new AboutVehiclePage(driver,commons);
+		aboutAutoAndHomePage = new AutoAndHomePage(driver,commons);
 
 	}
 
 	@AfterMethod
 	public void terminate() {
-		//driver.quit();
+		driver.quit();
 
 	}
 

@@ -4,8 +4,7 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.progressive.test.auto.AutoClass" />
-			<class name="com.progressive.test.home.AutoAndHomeClass" />
+			<class name="com.progressive.test.home.AutoAndHomeDataClass" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

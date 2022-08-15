@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.progressive.common.CommonFunctions;
+import com.progressive.utils.AutoData;
 
 public class BirthdatePage {
 	WebDriver driver;
@@ -76,7 +77,7 @@ public class BirthdatePage {
 		commons.clickElement(startMyQuoteElement);
 	}
 
-	public void birthdatePageStep(String firstName, String miName, String lastName, String dob, String address,
+	public void autoBirthdatePageStep(String firstName, String miName, String lastName, String dob, String address,
 			String aptNo, String cityName, String zipCode) {
 		inputFirstName(firstName);
 		inputMi(miName);
@@ -93,5 +94,41 @@ public class BirthdatePage {
 		clickOkayMyQuote();
 
 	}
+	
+	public void autoAndHomebirthdatePageStep(String firstName, String miName, String lastName, String dob, String address,
+			String aptNo, String cityName, String zipCode) {
+		inputFirstName(firstName);
+		inputMi(miName);
+		inputLastName(lastName);
+		inputDob(dob);
+		inputAddress(address);
+		inputAptNo(aptNo);
+		inputCityName(cityName);
+		inputZipCode(zipCode);
+		clickOkayMyQuote();
+		inputAddress(address);
+		inputAptNo(aptNo);
+		inputCityName(cityName);
+		clickOkayMyQuote();
+		
+	}
+	
+	public void autoAndHomebirthdatePageStep(AutoData autoData) {
+		inputFirstName(autoData.getFirstName());
+		inputMi(autoData.getMiName());
+		inputLastName(autoData.getLastName());
+		inputDob(autoData.getDob());
+		inputAddress(autoData.getAddress());
+		inputAptNo(autoData.getAptNo());
+		inputCityName(autoData.getCityName());
+		inputZipCode(autoData.getZipCode());
+		clickOkayMyQuote();
+		inputAddress(autoData.getAddress());
+		inputAptNo(autoData.getAptNo());
+		inputCityName(autoData.getCityName());
+		clickOkayMyQuote();
+		
+	}
+
 
 }
