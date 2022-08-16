@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import com.progressive.reporting.Loggers;
 
 public class ExcelUtil {
@@ -29,6 +31,14 @@ public class ExcelUtil {
 				Loggers.getLog("File not found in ---> " + path);
 			}
 
+		}else if(path.endsWith(".xlsx")) {
+			try {
+				workbook = new XSSFWorkbook(fileInputStream);
+				fileInputStream.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+				Loggers.getLog("File not found in ---> " + path);
+			}
 		}
 		sheet = workbook.getSheet(sheetName);
 	}
@@ -66,5 +76,6 @@ public class ExcelUtil {
 		}
 		return data;
 	}
+	//updated
 
 }
