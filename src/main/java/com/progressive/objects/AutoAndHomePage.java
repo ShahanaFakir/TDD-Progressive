@@ -1,5 +1,9 @@
 package com.progressive.objects;
 
+import static com.progressive.utils.DataMap.ZipCode;
+
+import java.util.Map;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,6 +38,12 @@ public class AutoAndHomePage {
 
 	public void aboutAutoAndHomeSteps(String value) {
 		inputZipCode(value);
+		clickGetAQuote();
+
+	}
+	
+	public void aboutAutoAndHomeSteps(Map<String, String> map) {
+		inputZipCode(map.get(ZipCode.getValue()));
 		clickGetAQuote();
 
 	}

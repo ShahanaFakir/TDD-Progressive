@@ -1,5 +1,7 @@
 package com.progressive.objects;
 
+import static com.progressive.utils.DataMap.*;
+import java.util.Map;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -91,6 +93,24 @@ public class BirthdatePage {
 		inputAddress(address);
 		inputAptNo(aptNo);
 		inputCityName(cityName);
+		clickOkayMyQuote();
+
+	}
+	
+	
+	public void autoBirthdatePageStep(Map<String, String> map) {
+		inputFirstName(map.get(FirstName.getValue()));
+		inputMi(map.get(MiName.getValue()));
+		inputLastName(map.get(LastName.getValue()));
+		inputDob(map.get(DOB.getValue()));
+		inputAddress(map.get(Address.getValue()));
+		inputAptNo(map.get(AptNo.getValue()));
+		inputCityName(map.get(City.getValue()));
+		inputZipCode(map.get(ZipCode.getValue()));
+		clickOkayMyQuote();
+		inputAddress(map.get(Address.getValue()));
+		inputAptNo(map.get(AptNo.getValue()));
+		inputCityName(map.get(City.getValue()));
 		clickOkayMyQuote();
 
 	}
