@@ -6,6 +6,7 @@
 		<classes>
 			<class name="com.progressive.test.auto.AutoClass" />
 			<class name="com.progressive.test.home.AutoAndHomeClass" />
+			<class name="com.progressive.test.auto.AutoClassNormalization" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

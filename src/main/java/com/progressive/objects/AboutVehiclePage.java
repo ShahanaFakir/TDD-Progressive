@@ -18,93 +18,89 @@ public class AboutVehiclePage {
 		this.commons = commons;
 
 	}
-	
+
 	@FindBy(xpath = "//h1[text()='Tell us about your vehicle(s)...']")
 	WebElement titElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_Year']")
 	WebElement yearElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_Make']")
 	WebElement makElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_Model']")
 	WebElement modelElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_VehicleUse']")
 	WebElement primaryUsElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_OwnOrLease']")
 	WebElement ownOrLeasElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_LengthOfOwnership']")
 	WebElement howLongHaveYouHadThisVehiclElement;
-	
+
 	@FindBy(xpath = "//select[@id='VehiclesNew_embedded_questions_list_AntitheftDevice']")
 	WebElement typeOfSecurityElement;
-	
+
 	@FindBy(xpath = "//button[text()='Done']")
 	WebElement doneElement;
-	
-	//@FindBy(xpath = "//input[@id='VehiclesNew_embedded_questions_list_AntilockBrakes_Y']")
-	//WebElement euippedWithAntiLongBrakesElement;
-	
-	private void getTitle(String expected) {
-		assertEquals(commons.getText(titElement), expected);
+
+	// @FindBy(xpath =
+	// "//input[@id='VehiclesNew_embedded_questions_list_AntilockBrakes_Y']")
+	// WebElement euippedWithAntiLongBrakesElement;
+
+	private void getTitle(String expectedTitle) {
+		assertEquals(commons.getText(titElement), expectedTitle);
 	}
-	
-	
-	private void selectYear(String value) {
-		commons.selectDropdownByValue(yearElement, value);
+
+	private void selectYear(String year) {
+		commons.selectDropdownByValue(yearElement, year);
 	}
-	
-	private void selectMake(String value1) {
-		commons.selectDropdownByValue(makElement, value1);
+
+	private void selectMake(String make) {
+		commons.selectDropdownByValue(makElement, make);
 	}
-	
-	private void selectModel(String value2) {
-		commons.selectDropdownByValue(modelElement, value2);
+
+	private void selectModel(String model) {
+		commons.selectDropdownByValue(modelElement, model);
 	}
-	
-	private void selectPrimaryUse(String value3) {
-		commons.selectDropdownByValue(primaryUsElement, value3);
+
+	private void selectPrimaryUse(String primaryUser) {
+		commons.selectDropdownByValue(primaryUsElement, primaryUser);
 	}
-	
-	private void selectOwnOrLease(String value4) {
-		commons.selectDropdownByValue(ownOrLeasElement, value4);
+
+	private void selectOwnOrLease(String ownOrLease) {
+		commons.selectDropdownByValue(ownOrLeasElement, ownOrLease);
 	}
-	
-	private void selectHowLonghaveYouHadThisVehicle(String value5) {
-		commons.selectDropdownByValue(howLongHaveYouHadThisVehiclElement, value5);
+
+	private void selectHowLonghaveYouHadThisVehicle(String value) {
+		commons.selectDropdownByValue(howLongHaveYouHadThisVehiclElement, value);
 	}
-	
-	private void selectTypeOfSecurityAlarm(String value6) {
-		commons.selectDropdownByValue(typeOfSecurityElement, value6);
+
+	private void selectTypeOfSecurityAlarm(String securityAlarm) {
+		commons.selectDropdownByValue(typeOfSecurityElement, securityAlarm);
 	}
-	
+
 	private void clickDone() {
 		commons.clickElement(doneElement);
 	}
-	
-	
 
-	public void aboutVehiclePageSteps(String expected,  String value, String value1,String value2, String value3,String value4, String value5,String value6
-			) {
-		getTitle(expected);
-		selectYear(value);
-		selectMake(value1);
-		selectModel(value2);
-		selectPrimaryUse(value3);
-		selectOwnOrLease(value4);
-		selectOwnOrLease(value4);
-		selectHowLonghaveYouHadThisVehicle(value5);
-		selectHowLonghaveYouHadThisVehicle(value5);
-		selectHowLonghaveYouHadThisVehicle(value5);
-		selectTypeOfSecurityAlarm(value6);
+	public void aboutVehiclePageSteps(String expectedTitle, String year, String make, String model, String primaryUser,
+			String ownOrLease, String value, String securityAlarm) {
+		getTitle(expectedTitle);
+		selectYear(year);
+		selectMake(make);
+		selectModel(model);
+		selectPrimaryUse(primaryUser);
+		selectOwnOrLease(ownOrLease);
+		selectOwnOrLease(ownOrLease);
+		selectHowLonghaveYouHadThisVehicle(value);
+		selectHowLonghaveYouHadThisVehicle(value);
+		selectHowLonghaveYouHadThisVehicle(value);
+		selectTypeOfSecurityAlarm(securityAlarm);
 		clickDone();
-		
-		
+
 	}
-	
-	
+
 }

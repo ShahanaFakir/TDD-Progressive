@@ -1,11 +1,17 @@
 package com.progressive.common;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import com.google.common.io.Files;
 import com.progressive.reporting.Loggers;
 
 public class CommonFunctions {
@@ -75,7 +81,7 @@ public class CommonFunctions {
 			Assert.fail();
 		}
 	}
-	
+
 	public void selectDropdownByValue(WebElement element, String value) {
 		try {
 			Select select = new Select(element);
@@ -87,8 +93,24 @@ public class CommonFunctions {
 			Loggers.getLog(element + " : This element is not found");
 			Assert.fail();
 		}
-		
+
 	}
-	
+
+	public String getScreenshot(String testName) {
+		Date date = new Date();
+		SimpleDateFormat format = new SimpleDateFormat("MMddyyyy_hh.mm.ss");
+		String extension = format.format(date);
+		File file = new File("screenShots/" + testName + "_" + extension + ".png");
+		TakesScreenshot ss = (TakesScreenshot) driver;
+		File outPutFile = ss.getScreenshotAs(OutputType.FILE);
+		try {
+			Files.copy(outPutFile, file.getAbsoluteFile());
+			Loggers.getLog("Test has been failed \nScreenshot taken here ---> " + file.getAbsolutePath());
+		} catch (Exception e) {
+			e.printStackTrace();
+			Loggers.getLog("Error while taking screenshot");
+		}
+		return file.getAbsolutePath();
+	}
 
 }

@@ -98,7 +98,7 @@ public class BirthdatePage {
 	}
 	
 	
-	public void autoBirthdatePageStep(Map<String, String> map) {
+	public void autoAndHomebirthdatePageStep(Map<String, String> map) {
 		inputFirstName(map.get(FirstName.getValue()));
 		inputMi(map.get(MiName.getValue()));
 		inputLastName(map.get(LastName.getValue()));

@@ -10,8 +10,8 @@ public class AutoAndHomeTestExcel2D extends BaseClass {
 	@DataProvider(name = "autoAndHomeData2DExcel")
 
 	public Object[][] autoAndHomeData() {
-		String pathString = configuration.getConfiguration("excelPath");
-		String sheetNameString = configuration.getConfiguration("excelSheet");
+		String pathString = configuration.get("excelPath");
+		String sheetNameString = configuration.get("excelSheet");
 		ExcelUtil excelUtil = new ExcelUtil(pathString, sheetNameString);
 		return excelUtil.dataObjects();
 	}

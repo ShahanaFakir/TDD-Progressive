@@ -26,6 +26,9 @@ public class AutoPage {
 
 	@FindBy(xpath = "(//button[@data-action='AU+H'])[1]")
 	WebElement homeButtonElement;
+	
+	@FindBy(xpath = "(//button[@data-action='AU+C'])[1]")
+	WebElement condoButtonElement;
 
 	@FindBy(xpath = "//input[@id='qsButton_overlay']")
 	WebElement getAQuotElement;
@@ -47,6 +50,10 @@ public class AutoPage {
 	private void clickHomeButton() {
 		commons.clickElement(homeButtonElement);
 	}
+	
+	private void clickCondoButton() {
+		commons.clickElement(condoButtonElement);
+	}
 
 	private void clickGetAQuote() {
 		commons.clickElement(getAQuotElement);
@@ -58,6 +65,15 @@ public class AutoPage {
 		getCurrentUrl(expectedUrl);
 		inputZipCode(value);
 		clickHomeButton();
+		clickGetAQuote();
+
+	}
+	
+	public void aboutCondoSteps(String expected, String expectedUrl, String value) {
+		getTitle(expected);
+		getCurrentUrl(expectedUrl);
+		inputZipCode(value);
+		clickCondoButton();
 		clickGetAQuote();
 
 	}
